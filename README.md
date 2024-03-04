@@ -1,18 +1,16 @@
-# Boilerplate Platformio CLI
+# MiniTorno para Ceramistas
 
-Boilerplate para Projetos Arduino com o PlatformIO CLI! Este projeto foi criado com o objetivo de facilitar e agilizar o processo de desenvolvimento de aplicações baseadas em Arduino.
+![schematic](docs/images/schematic.jpg)
 
-## O que é o Boilerplate?
+O Mini Torno para Ceramistas é uma ferramenta essencial para aqueles que trabalham com cerâmica, oferecendo precisão e controle durante o processo de modelagem. Utilizando a plataforma NodeMCU e componentes adicionais, este projeto proporciona funcionalidades que incluem:
 
-Este boilerplate é uma estrutura inicial que contém as configurações básicas e os arquivos necessários para começar a desenvolver projetos com o Arduino de forma eficiente. O PlatformIO CLI é uma poderosa ferramenta de linha de comando para o desenvolvimento de firmware embarcado, proporcionando um ambiente de desenvolvimento unificado e simplificado.
-
-## Como Utilizar:
-
-Clone ou faça o download deste repositório.
-Personalize o platformio.ini com as configurações da sua placa.
-Utilize o PlatformIO CLI para compilar, fazer o upload e depurar o firmware.
+- Controle do motor de passo para girar a plataforma de modelagem.
+- Potenciometro para controle de velocidade
+- Utilização do drive A4988 para gerenciar o motor de passo de forma eficiente e silenciosa.
 
 ## Códigos úteis
+
+Esse projeto está configurado para usar a cli do platformIO.
 
 ### Criando os arquivos de configuração para o vscode:
 
@@ -38,8 +36,6 @@ pio run --target upload
 pio device monitor
 ```
 
-Saiba mais sobre o platformio.io em [platformIO](https://platformio.org/)
+## Licença
 
-Sinta-se à vontade para contribuir, reportar problemas ou sugerir melhorias. Juntos, podemos tornar este boilerplate ainda mais útil e robusto para a comunidade de desenvolvedores Arduino.
-
-Divirta-se codificando!
+Este projeto é distribuído sob a licença [MIT](LICENSE), o que significa que você é livre para utilizar, modificar e distribuir o código conforme necessário, desde que inclua a mesma licença nos seus projetos derivados.
